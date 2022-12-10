@@ -7,4 +7,5 @@ input("What is your name: ") # This line take input from user
 
 print("Hello " + input("What is your name?")) # This line take the input first then print the output 
 
-
+print( len( input( "What is your name? ") ) ) # The len() function for calculating the length of a string
+ 
