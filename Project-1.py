@@ -12,3 +12,15 @@ print( len( input( "What is your name? ") ) ) # The len() function for calculati
 Name=input("What is your name? ") # Variables in python 
 print("My name is " + Name)
 
+# How to switch valu betwine Two variable
+
+A=input("A= ") # Take input from user for A
+B=input("B= ") # Take input from user for B
+
+A,B=B,A # Swaping valu betwine two variable
+
+print("A:", A) # Printing valu A
+print("B:", B) # Printing valu B
+
+
+
